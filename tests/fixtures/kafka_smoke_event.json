@@ -1,0 +1,13 @@
+{
+  "_comment": "TEST FIXTURE — NOT BOTS DATA. Schema-shape only, for Kafka smoke tests. Identifiers are RFC 5737 documentation addresses. This is not a Splunk export and must not be treated as BOTS v3 evidence.",
+  "_time": "2018-08-20T13:01:46.000+00:00",
+  "source": "s3://example-cloudtrail-bucket/AWSLogs/111111111111/CloudTrail/us-west-2/2018/08/20/example.json.gz",
+  "sourcetype": "aws:cloudtrail",
+  "host": "111111111111",
+  "eventTime": "2018-08-20T13:01:46Z",
+  "eventName": "DescribeInstances",
+  "eventSource": "ec2.amazonaws.com",
+  "awsRegion": "us-west-2",
+  "userName": "example-user",
+  "sourceIPAddress": "203.0.113.25"
+}

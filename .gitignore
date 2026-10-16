@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local security telemetry datasets (Splunk BOTS) are large and are never committed;
+# keep the directories, ignore their contents. Real exports live in data/botsv3/raw/
+# and must stay untouched, so the directory is re-included only for its .gitkeep.
+data/botsv3/*
+!data/botsv3/.gitkeep
+!data/botsv3/raw/
+data/botsv3/raw/*
+!data/botsv3/raw/.gitkeep
+data/normalized/*
+!data/normalized/.gitkeep
